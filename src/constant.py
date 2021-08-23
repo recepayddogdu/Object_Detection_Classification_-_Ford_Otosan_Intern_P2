@@ -20,6 +20,8 @@ AUG_MASK_DIR = os.path.join(DATA_DIR, "aug_mask")
 TEST_DIR = os.path.join(DATA_DIR, "test")
 TEST_PREDICT_DIR = os.path.join(DATA_DIR, "test_predicts")
 
+BATCH_SIZE = 4
+
 #Input Dimensions
 HEIGHT = 224
 WIDTH = 224
