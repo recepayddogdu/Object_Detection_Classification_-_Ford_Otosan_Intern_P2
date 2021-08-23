@@ -24,7 +24,7 @@ for mask_name in tqdm.tqdm(mask_name_polygon):
     image[mask_polygon==100, :] = (255, 0, 125) #color=100 olan mask'ların konumlarını image'da renklendiriyoruz
     image[mask_line==1, :] = (0, 0, 255)
     image[mask_line==2, :] = (38, 255, 255)
-    
+    3
     opac_image = (image/2 + cpy_image/2).astype(np.uint8)
     #orjinal image ile renklendirilmiş image'ı %50 %50 birleştiriyoruz
     
