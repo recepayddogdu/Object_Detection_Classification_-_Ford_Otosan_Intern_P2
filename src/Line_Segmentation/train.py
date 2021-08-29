@@ -170,10 +170,9 @@ if __name__ == "__main__":
                     loss = criterion(outputs, batch_label)
                     val_loss += loss
                     #val_losses.append(val_loss)
-                    break
+                    
 		val_loss  = val_loss/len(valid_input_path_list)
 		val_losses.append(val_loss)
-    
                 print('validation loss on epoch {}: {}\n'.format(epoch, val_loss))
 
                 save_checkpoint(epoch, model, optimizer, val_loss, model_name)
