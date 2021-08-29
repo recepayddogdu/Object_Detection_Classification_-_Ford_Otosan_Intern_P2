@@ -23,7 +23,7 @@ def visualize_sign(txt_path,save_box,cropped_path,cropped=False,save=False):
             if save==True:
                 cv2.imwrite(image_path.replace("images",save_box),result_box)
             if cropped==True:
-                cropped_image(image_path.replace("images",save_box), X_up,Y_up, X_bottom, Y_bottom,cropped_path)
+                cropped_image(image_path, X_up,Y_up, X_bottom, Y_bottom,cropped_path)
     
 txt_train_path="../../data/p2_data/train.txt"
 save_box_train='result_train_box'
