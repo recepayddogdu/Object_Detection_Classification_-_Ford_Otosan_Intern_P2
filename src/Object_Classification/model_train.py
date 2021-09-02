@@ -16,7 +16,7 @@ model = keras.models.Sequential([
     keras.layers.BatchNormalization(),
     keras.layers.Dropout(rate=0.5),
     
-    keras.layers.Dense(43, activation='softmax')
+    keras.layers.Dense(41, activation='softmax')
 ])
 
 
@@ -38,12 +38,12 @@ aug = ImageDataGenerator(
     fill_mode="nearest")
 
 history = model.fit(aug.flow(X_train, y_train, batch_size=32), epochs=epochs, validation_data=(X_val, y_val))
-model.save('../../models/sign_classification.h5')
+model.save('../../models/sign_classification_new.h5')
 ## Evaluating the model
 pd.DataFrame(history.history).plot(figsize=(8, 5))
 plt.grid(True)
 plt.gca().set_ylim(0, 1)
-plt.savefig("../../images/classification/model_history.png")
+plt.savefig("../../images/classification/model_history2.png")
 plt.show()
 
 model.summary()
