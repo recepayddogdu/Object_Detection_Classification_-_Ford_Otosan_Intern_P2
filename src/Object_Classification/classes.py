@@ -26,6 +26,7 @@ data_dir = '../../data/classification_data'
 train_path = '../../data/classification_data/Train'
 test_path_ford = '../../data/p2_data/cropped_valid_box'
 test_path='../../data/classification_data/Test'
+meta_path = "../../data/classification_data/Meta"
 
 # Resizing the images to 30x30x3
 IMG_HEIGHT = 30
