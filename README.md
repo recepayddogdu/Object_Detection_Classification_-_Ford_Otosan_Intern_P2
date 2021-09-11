@@ -1,13 +1,21 @@
 # Line Segmentation and Object Detection/Classification
 
+In this project, we aim to line segmentation and traffic signs classification in the images.
+
+Some of the technologies used in the project; Python, OpenCV, Pytorch, TensorFlow, YOLOv4
+
+**[Click for the GitHub repository of the Drivable Area Detection project. ](https://github.com/recepayddogdu/Freespace_Segmentation-Ford_Otosan_Intern)**
+
+The results of the project can be viewed in the video below;
 
 <p  align="center">
-<a href = "https://youtu.be/0WAls6WQne8" target="_blank">
+<a href = "https://youtu.be/0WAls6WQne8">
 <img  src="images/video.png"  width="">
 </a>
 </p>
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0WAls6WQne8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The project consists of 2 main parts.
+- [Line Segmentation](#line-segmentation)
+- [Traffic Sign Detection and Classification](#traffic-sign-detection-and-classification)
 
 
