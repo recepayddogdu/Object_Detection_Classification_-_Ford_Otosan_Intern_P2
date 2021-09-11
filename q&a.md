@@ -1,4 +1,13 @@
-﻿
+
+# Questions and Answers
+## Contents
+- [What is an image classification task?](#what-is-an-image-classification-task)
+- [What is an object localization task?](#what-is-an-object-localization-task)
+- [What is an object detection task?](#what-is-an-object-detection-task)
+- [What is an object recognition task?](#what-is-an-object-recognition-task)
+- [What is non-max suppression?](#what-is-non-max-suppression)
+- [Yolo Object Detection Model](#yolo-object-detection-model)
+
 ## What is an image classification task?
 Image classification is where a computer can analyse an image and identify the ‘class’ the image falls under. (Or a probability of the image being part of a ‘class’.) A class is essentially a label, for instance, ‘car’, ‘animal’, ‘building’ and so on.  
 
