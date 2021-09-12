@@ -12,7 +12,8 @@ The results of the project can be viewed in the video below;
 </a>
 </p>
 
-In training Lane Segmentation and Traffic Sign Detection models, 8.555 image data collected from the highway by Ford Otosan were used.   Examples from the dataset;
+In training Lane Segmentation and Traffic Sign Detection models, 8.555 image data collected from the highway by Ford Otosan were used.  
+Examples from the dataset;
 <p  align="center">
 <img  src="images/lane_segmentation/dataset.png"  width="">
 </p> 
@@ -53,4 +54,27 @@ Mask example;
 
 **Click for the codes of this section;**  [json2mask_line.py](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/blob/master/src/Line_Segmentation/json2mask_line.py), [mask_on_image.py](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/blob/master/src/Line_Segmentation/mask_on_image.py)
 
+### Model
+SegNet was used as we got better results in lanes. U-Net was used for Drivable Area Segmentation. In this way, different models were experienced.
+
+**SegNet** is a semantic segmentation model. This core trainable segmentation architecture consists of an encoder network, a corresponding decoder network followed by a pixel-wise classification layer. The architecture of the encoder network is topologically identical to the 13 convolutional layers in the VGG16 network. The role of the decoder network is to map the low resolution encoder feature maps to full input resolution feature maps for pixel-wise classification. The novelty of SegNet lies is in the manner in which the decoder upsamples its lower resolution input feature maps. Specifically, the decoder uses pooling indices computed in the max-pooling step of the corresponding encoder to perform non-linear upsampling.
+
+<p  align="center">
+<img  src="images/lane_segmentation/segnet.png"  width="">
+</p> 
+
+*SegNet architecture. There are no fully connected layers and hence it is only convolutional. A decoder upsamples its input using the transferred pool indices from its encoder to produce a sparse feature map(s). It then performs convolution with a trainable filter bank to densify the feature map. The final decoder output feature maps are fed to a soft-max classifier for pixel-wise classification.*
+
+**Click for the codes of this section;  [SegNet.py](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/blob/master/src/Lane_Segmentation/SegNet.py)**
+
+### Predict
+Eğitilen modelin sonuçlarını görmek için modelin daha önce hiç görmediği test verileri ile tahmin yapılmıştır.
+
+The images in the test data set are converted to tensor. It is given to the model. And the outputs are converted to masks. Then, these masks are printed on the images and the results are observed.
+
+<p  align="center">
+<img  src="images/lane_segmentation/lane_predict.png"  width="">
+</p> 
+
+## Traffic Sign Detection and Classification
 
