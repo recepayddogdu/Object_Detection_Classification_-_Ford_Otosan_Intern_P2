@@ -68,13 +68,15 @@ SegNet was used as we got better results in lanes. U-Net was used for Drivable A
 **Click for the codes of this section;  [SegNet.py](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/blob/master/src/Lane_Segmentation/SegNet.py)**
 
 ### Predict
-Eğitilen modelin sonuçlarını görmek için modelin daha önce hiç görmediği test verileri ile tahmin yapılmıştır.
+To see the results of the trained model, estimation was done with test data never seen before by the model.
 
 The images in the test data set are converted to tensor. It is given to the model. And the outputs are converted to masks. Then, these masks are printed on the images and the results are observed.
 
 <p  align="center">
 <img  src="images/lane_segmentation/lane_predict.png"  width="">
 </p> 
+
+**Click for the codes of this section;  [full_predict.py](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/blob/master/src/Lane_Segmentation/full_predict.py)**
 
 ## Traffic Sign Detection and Classification
 
