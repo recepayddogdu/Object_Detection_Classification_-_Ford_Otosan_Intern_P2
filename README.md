@@ -154,6 +154,19 @@ Model parameters have been updated according to our dataset;
 Before starting the model training, the pre-trained model weights were downloaded. In this way, the training time was shortened and more accurate operation was ensured.
 
     def Detection(imageDir):
-    os.system("./darknet detector test data/obj.data cfg/yolov4-obj.cfg ../yolov4-obj_last.weights  
+	    os.system("./darknet detector test data/obj.data cfg/yolov4-obj.cfg ../yolov4-obj_last.weights  
 			   {} -ext_output -dont_show -out result.json -thresh 0.5".format(imageDir))
+
+As a result of the training, our object detection model reached **`87% accuracy`**.
+
+<p  align="center">
+<img  src="images/detection/yolov4.png"  width="500px">
+</p> 
+
+A sample prediction at the end of the training is as follows;
+
+<p  align="center">
+<img  src="images/detection/predict.png"  width="500px">
+</p> 
+
 
