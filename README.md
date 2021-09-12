@@ -46,8 +46,8 @@ The `fillPoly` function from the cv2 library was used to draw the masks.
            cv2.polylines(mask,np.array([obj['points']['exterior']],dtype=np.int32),  
            False,color=1,thickness=14)
         elif obj['classTitle']=='Dashed Line':       
-               cv2.polylines(mask,np.array([obj['points']['exterior']],dtype=np.int32),  
-               False,color=2,thickness=9)
+           cv2.polylines(mask,np.array([obj['points']['exterior']],dtype=np.int32),  
+           False,color=2,thickness=9)
 
 Mask example;
 <p  align="center">
