@@ -157,6 +157,11 @@ Before starting the model training, the pre-trained model weights were downloade
 	    os.system("./darknet detector test data/obj.data cfg/yolov4-obj.cfg ../yolov4-obj_last.weights  
 			   {} -ext_output -dont_show -out result.json -thresh 0.5".format(imageDir))
 
+The point positions estimated with YOLOv4 are saved in the `result.json` file with the parameter in the `Detection` function;
+<p  align="center">
+<img  src="images/detection/json.png"  width="">
+</p> 
+
 As a result of the training, our object detection model reached **`87% accuracy`**.
 
 <p  align="center">
@@ -167,6 +172,32 @@ A sample prediction at the end of the training is as follows;
 
 <p  align="center">
 <img  src="images/detection/predict.png"  width="">
+</p> 
+
+**Click for the codes of this section; [Detection](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/tree/master/src/Object_Detection)**
+
+### Object Classification
+
+In the traffic sign classification model, the German Traffic Sign dataset from Kaggle was used. Data were collected for traffic signs specific to Turkish highways and new classes were added to the dataset. It has 40+ classes and 50,000+ image data.
+
+Images representing the classes in the dataset;
+<p  align="center">
+<img  src="images/classification/classes_image.png"  width="">
+</p> 
+
+Images are cropped from locations detected with the YOLOv4 model;
+<p  align="center">
+<img  src="images/classification/cropped.png"  width="">
+</p> 
+
+A CNN model was used in the following layer structure for the classification;
+<p  align="center">
+<img  src="images/classification/model_summary.png"  width="">
+</p> 
+
+Model evaluation;
+<p  align="center">
+<img  src="images/classification/model_forddata.png"  width="">
 </p> 
 
 
