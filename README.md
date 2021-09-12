@@ -102,4 +102,29 @@ For basic information about this section, you can view my notes under the follow
 
 ### Traffic Sign Detection
 
+The YOLOv4 model, which is very popular today, was used for object detection.
+
+JSON files are obtained as a result of highway images labeled by Ford Otosan Annotation Team. The JSON files contain the locations of the Traffic Sign class.
+
+Data labels have been adjusted to the YOLOv4 model.
+
+    xmin=obj['points']['exterior'][0][0]
+    ymin=obj['points']['exterior'][0][1]
+    xmax=obj['points']['exterior'][1][0]
+    ymax=obj['points']['exterior'][1][1]
+                    
+    def width():
+        width=int(xmax-xmin)
+        return width
+    def height():
+        height=int(ymax-ymin)
+        return height
+    def x_center():
+        x_center=int(xmin + width()/2)
+        return x_center
+    def y_center():
+        y_center=int(ymin + height()/2)
+        return y_center
+    annotations.append(str(obj_id)+" "+str(x_center()/1920)+" "+str(y_center()/1208)  
+    +" "+str(width()/1920)+" "+str(height()/1208))
 
