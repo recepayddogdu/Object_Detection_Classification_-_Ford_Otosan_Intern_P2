@@ -202,7 +202,7 @@ Model evaluation;
 
 The image of the predicted class as a result of the Classification has been added to the upper left corner of the bounding box.
 
-The [image.c](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/tree/master/src/Object_Detection/image.c) file in Darknet has been edited and the bounding box's image has been personalized.
+The [image.c](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/tree/master/src/Object_Detection/image.c) file in Darknet has been edited and the bounding box's has been personalized.
 
 Examples of classification results;
 <p  align="center">
