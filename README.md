@@ -197,7 +197,11 @@ A CNN model was used in the following layer structure for the classification;
 
 Model evaluation;
 <p  align="center">
-<img  src="images/classification/model_forddata.png"  width="">
+<img  src="images/classification/model_forddata.jpg"  width="">
 </p> 
+
+The image of the predicted class as a result of the Classification has been added to the upper left corner of the bounding box.
+
+The [image.c](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/tree/master/src/Object_Detection/image.c) file in Darknet has been edited and the bounding box's image has been personalized.
 
 
