@@ -1,6 +1,6 @@
 # Lane Segmentation and Object Detection/Classification
 
-In this project, we aim to *Lane Segmentation* and *Traffic Signs Classification* in the images.
+In this project, *Lane Segmentation* and *Classification of Traffic Signs* are aimed in the images.
 
 Some of the technologies used in the project; **Python, OpenCV, Pytorch, TensorFlow, YOLOv4**
 
@@ -12,12 +12,12 @@ The results of the project can be viewed in the video below;
 </a>
 </p>
 
-In training Lane Segmentation and Traffic Sign Detection models, 8.555 image data collected from the highway by Ford Otosan were used. Examples from the dataset;
+In training Lane Segmentation and Traffic Sign Detection models, 8.555 image data collected from the highway by Ford Otosan were used.   Examples from the dataset;
 <p  align="center">
 <img  src="images/lane_segmentation/dataset.png"  width="">
 </p> 
 
-In the traffic sign classification model, the [German Traffic Sign dataset](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign) from Kaggle was used. Data were collected for traffic signs specific to Turkish highways and new classes were added to the dataset. It has 40+ classes and 50,000+ image data.
+In the traffic sign classification model, the [German Traffic Sign dataset](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign) from Kaggle was used. Data were collected for traffic signs specific to Turkish highways and new classes were added to the dataset. It has 40+ classes and 50,000+ image data.  
 Examples from the dataset;
 <p  align="center">
 <img  src="images/classification/dataset_classification.png"  width="">
