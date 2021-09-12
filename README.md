@@ -97,7 +97,7 @@ For basic information about this section, you can view my notes under the follow
 - [What is an object localization task?](/q&a.md#what-is-an-object-localization-task)
 - [What is an object detection task?](/q&a.md#what-is-an-object-detection-task)
 - [What is an object recognition task?](/q&a.md#what-is-an-object-recognition-task)
-- [What is non-max suppression?](/q&a.md#what-is-an-non-max-suppression)
+- [What is non-max suppression?](/q&a.md#what-is-non-max-suppression)
 - [YOLO Object Detection Model](/q&a.md#yolo-object-detection-model)
 
 ### Traffic Sign Detection
