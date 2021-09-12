@@ -126,5 +126,5 @@ Data labels have been adjusted to the YOLOv4 model.
         y_center=int(ymin + height()/2)
         return y_center
     annotations.append(str(obj_id)+" "+str(x_center()/1920)+" "+str(y_center()/1208)  
-    +" "+str(width()/1920)+" "+str(height()/1208))
+				    +" "+str(width()/1920)+" "+str(height()/1208))
 
