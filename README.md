@@ -144,17 +144,16 @@ txt files contain the classes and coordinates of the data;
 Model parameters have been updated according to our dataset;
 
 <p  align="center">
-<img  src="images/detection/yolo_cfg.png"  width="">
+<img  src="images/detection/yolo_cfg.png"  width="500px">
 </p> 
 
 <p  align="center">
-<img  src="images/detection/yolo_cfg2.png"  width="">
+<img  src="images/detection/yolo_cfg2.png"  width="500px">
 </p> 
 
 Before starting the model training, the pre-trained model weights were downloaded. In this way, the training time was shortened and more accurate operation was ensured.
 
     def Detection(imageDir):
     os.system("./darknet detector test data/obj.data cfg/yolov4-obj.cfg ../yolov4-obj_last.weights  
-			   {} -ext_output -dont_show -out result.json -thresh 0.5"
-              .format(imageDir))
+			   {} -ext_output -dont_show -out result.json -thresh 0.5".format(imageDir))
 
