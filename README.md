@@ -128,3 +128,33 @@ Data labels have been adjusted to the YOLOv4 model.
     annotations.append(str(obj_id)+" "+str(x_center()/1920)+" "+str(y_center()/1208)  
 				    +" "+str(width()/1920)+" "+str(height()/1208))
 
+
+The folder structure of the train and validation data to be used in the model;
+
+<p  align="center">
+<img  src="images/detection/json2od_txt.jpg"  width="">
+</p> 
+
+txt files contain the classes and coordinates of the data;
+
+<p  align="center">
+<img  src="images/detection/json2od_pts.jpg"  width="">
+</p> 
+
+Model parameters have been updated according to our dataset;
+
+<p  align="center">
+<img  src="images/detection/yolo_cfg.png"  width="">
+</p> 
+
+<p  align="center">
+<img  src="images/detection/yolo_cfg2.png"  width="">
+</p> 
+
+Before starting the model training, the pre-trained model weights were downloaded. In this way, the training time was shortened and more accurate operation was ensured.
+
+    def Detection(imageDir):
+    os.system("./darknet detector test data/obj.data cfg/yolov4-obj.cfg ../yolov4-obj_last.weights  
+			   {} -ext_output -dont_show -out result.json -thresh 0.5"
+              .format(imageDir))
+
