@@ -166,7 +166,7 @@ As a result of the training, our object detection model reached **`87% accuracy`
 A sample prediction at the end of the training is as follows;
 
 <p  align="center">
-<img  src="images/detection/predict.png"  width="500px">
+<img  src="images/detection/predict.png"  width="">
 </p> 
 
 
