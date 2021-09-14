@@ -30,8 +30,7 @@ Examples from the dataset;
 
 ## Lane Segmentation
 
-Many steps in the Lane Segmentation section have the same content as the Drivable Area Segmentation project.
-
+**Many steps in the Lane Segmentation section have the same content as the Drivable Area Segmentation project.**  
 **[Click for the GitHub repository of the Drivable Area Detection project. ](https://github.com/recepayddogdu/Freespace_Segmentation-Ford_Otosan_Intern)**
 
 ### Json to Mask
@@ -209,9 +208,11 @@ Examples of classification results;
 <img  src="images/classification/class_pred.png"  width="">
 </p> 
 
+**Click for the codes of this section; [Classification](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/tree/master/src/Object_Classification)**
+
 Test results with random data collected on different days;  
 (Click `Right click->open image in new tab or save image as..` to view larger images.)
 
 <p  align="center">
-<img  src="images/predict.png"  width="">
+<img  src="images/predicts.png"  width="">
 </p> 
