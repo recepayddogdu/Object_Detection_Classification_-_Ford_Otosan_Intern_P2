@@ -208,3 +208,10 @@ Examples of classification results;
 <p  align="center">
 <img  src="images/classification/class_pred.png"  width="">
 </p> 
+
+Test results with random data collected on different days;  
+(Click `Right click->open image in new tab or save image as..` to view larger images.)
+
+<p  align="center">
+<img  src="images/predict.png"  width="">
+</p> 
