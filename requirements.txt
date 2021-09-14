@@ -4,3 +4,4 @@ opencv-contrib-python==4.2.0.34
 torch
 tqdm
 matplotlib
+tensorflow
