@@ -38,7 +38,7 @@ JSON files are obtained as a result of highway images labeled by Ford Otosan Ann
 
 A mask was created with the data in the JSON file to identify the pixels of the lines in the image.
 
-The `fillPoly` function from the cv2 library was used to draw the masks.
+The `polylines` function from the cv2 library was used to draw the masks.
 
     for obj in json_dict["objects"]: #To access each list inside the json_objs list                   
         if obj['classTitle']=='Solid Line':
