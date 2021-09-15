@@ -199,7 +199,7 @@ Model evaluation;
 <img  src="images/classification/model_forddata.jpg"  width="600px">
 </p> 
 
-The image of the predicted class as a result of the Classification has been added to the upper left corner of the bounding box.
+The image of the class predicted as a result of the classification was sized to 70% of the short side of the bounding box and added to the upper left corner of the box. Adjusted its length to 40px to prevent it from getting too large if it is over 40px in length.
 
 The [image.c](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/tree/master/src/Object_Detection/image.c) file in Darknet has been edited and the bounding box's has been personalized.
 
