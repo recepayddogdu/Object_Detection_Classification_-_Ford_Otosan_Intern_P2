@@ -11,6 +11,9 @@ Some of the technologies used in the project; **Python, OpenCV, Pytorch, TensorF
 
 The results of the project can be viewed in the video below;
 
+https://user-images.githubusercontent.com/53975964/133525247-70112aaa-978a-4ec8-9ceb-eaf7765d9ca0.mp4
+
+
 <p  align="center">
 <a href = "https://youtu.be/0WAls6WQne8">
 <img  src="images/video.png"  width="">
