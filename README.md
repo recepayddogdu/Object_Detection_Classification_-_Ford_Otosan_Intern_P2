@@ -2,6 +2,11 @@
 
 In this project, *Lane Segmentation* and *Traffic Sign Detection/Classification* are aimed in the images.
 
+Developers of this project:
+
+- [Ayça Burcu Bingül](https://www.linkedin.com/in/aycaburcubingul/)
+- [Recep Aydoğdu](https://www.linkedin.com/in/recepayddogdu/)
+
 Some of the technologies used in the project; **Python, OpenCV, Pytorch, TensorFlow, YOLOv4**
 
 The results of the project can be viewed in the video below;
@@ -32,6 +37,8 @@ Examples from the dataset;
 
 **Many steps in the Lane Segmentation section have the same content as the Drivable Area Segmentation project.**  
 **[Click for the GitHub repository of the Drivable Area Detection project. ](https://github.com/recepayddogdu/Freespace_Segmentation-Ford_Otosan_Intern)**
+
+**You can review my notes, which contain basic information about Semantic Segmentation and Deep Learning; [Questions and Answers](https://github.com/recepayddogdu/Freespace_Segmentation-Ford_Otosan_Intern/blob/main/Questions_and_Answers.md#questions-and-answers)**
 
 ### Json to Mask
 JSON files are obtained as a result of highway images labeled by Ford Otosan Annotation Team. The JSON files contain the locations of the *Solid Line* and *Dashed Line* classes.
@@ -182,6 +189,11 @@ In the traffic sign classification model, the German Traffic Sign dataset from K
 Images representing the classes in the dataset;
 <p  align="center">
 <img  src="images/classification/classes_image.png"  width="">
+</p> 
+
+Data augmentation was applied to increase the data collected from Turkish highways;
+<p  align="center">
+<img  src="images/classification/augmentation.png"  width="">
 </p> 
 
 Images are cropped from locations detected with the YOLOv4 model;
