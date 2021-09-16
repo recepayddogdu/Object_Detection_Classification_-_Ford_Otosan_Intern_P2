@@ -213,6 +213,10 @@ The image of the class predicted as a result of the classification was sized to 
 
 The [image.c](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/tree/master/src/Object_Detection/image.c) file in Darknet has been edited and the bounding box's has been personalized.
 
+<p  align="center">
+<img  src="images/detection/bounding_box.png"  width="">
+</p> 
+
 Examples of classification results;
 <p  align="center">
 <img  src="images/classification/class_pred.png"  width="">
