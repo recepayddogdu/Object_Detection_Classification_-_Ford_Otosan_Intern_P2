@@ -13,6 +13,8 @@ The results of the project can be viewed in the video below;
 
 https://user-images.githubusercontent.com/53975964/133525247-70112aaa-978a-4ec8-9ceb-eaf7765d9ca0.mp4
 
+*(The data in this video is not related to Ford Otosan, it is the data we collect to test the model.)*
+
 In training Lane Segmentation and Traffic Sign Detection models, 8.555 image data collected from the highway by Ford Otosan were used.  
 Examples from the dataset;
 <p  align="center">
