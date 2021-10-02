@@ -58,7 +58,7 @@ Mask example;
 <img  src="images/lane_segmentation/maskonimg.png"  width="">
 </p> 
 
-**Click for the codes of this section;**  [json2mask_line.py](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/blob/master/src/Line_Segmentation/json2mask_line.py), [mask_on_image.py](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/blob/master/src/Line_Segmentation/mask_on_image.py)
+**Click for the codes of this section;**  [json2mask_line.py](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/blob/master/src/Lane_Segmentation/json2mask_line.py), [mask_on_image.py](https://github.com/recepayddogdu/Object_Detection_Classification_-_Ford_Otosan_Intern_P2/blob/master/src/Lane_Segmentation/mask_on_image.py)
 
 ### Model
 SegNet was used as we got better results in lanes. U-Net was used for Drivable Area Segmentation. In this way, different models were experienced.
